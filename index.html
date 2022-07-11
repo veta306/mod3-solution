@@ -5,23 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
   </head>
   <body>
-    <h1>Shopping list</h1>
-    <ul>
-      <li id="first">Milk</li>
-      <li>Sugar</li>
-      <li class="special">Salt</li>
-      <li>
-        Water
-        <ul>
-          <li>Mineral</li>
-          <li class="special">Lemonade</li>
-        </ul>
-      </li>
-      <li>Snacks</li>
-    </ul>
-    <a href="#first" target="_blank">go to first</a>
+    <header>
+      <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1">Food,LLC</span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-lg-0">
+              <li class="nav-item d-block d-sm-none text-center">
+                <span>Chicken</span>
+              </li>
+              <li class="nav-item d-block d-sm-none text-center">
+                <span>Beef</span>
+              </li>
+              <li class="nav-item d-block d-sm-none text-center">
+                <span>Sushi</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <h2 class="text-center">Our menu</h2>
+    <div class="container-fluid">
+      <div class="box">
+        <div class="col-12">
+          <h3 class="text-center">Chicken</h3>
+          <div class="text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt,
+            laboriosam. Quas voluptatibus reprehenderit nostrum enim totam nulla
+            velit rerum at id perspiciatis impedit nemo sapiente, ullam fuga
+            unde! Ducimus, mollitia.
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.js"></script>
   </body>
 </html>
